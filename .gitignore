@@ -22,8 +22,8 @@ build/
 # Project specific directories and their contents
 CVs/
 CVs/**
-results/
-results/**
+results/*
+!results/.gitkeep
 
 # Document files
 *.pdf
