@@ -20,8 +20,11 @@ build/
 *.swo
 
 # Project specific directories and their contents
-CVs/
-CVs/**
+CVs/*
+!CVs/.gitkeep
+!CVs/CV_leads
+CVs/CV_leads/*
+!CVs/CV_leads/.gitkeep
 results/*
 !results/.gitkeep
 
