@@ -49,14 +49,17 @@ LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key
 ```
 ├── main.py                     # Main resume processing script
 ├── filter_high_scores.py       # Script for filtering top candidates
-├── results/                    # Output directory
+├── results/                    # Output directory (git ignored)
 │   ├── resume_analysis_results.md
 │   ├── resume_analysis_results.csv
 │   └── top_candidates.md
 ├── CVs/                       # Directory containing resumes
-│   └── cv_leads/             # Subdirectory for resumes
+│   └── cv_leads/             # Subdirectory for resumes (git ignored)
+├── .gitignore                # Git exclusion patterns
 └── requirements.txt
 ```
+
+Note: The `results/` directory and `CVs/cv_leads/` directory are excluded from git tracking to avoid committing sensitive data and large files. These directories will be created locally when running the scripts.
 
 ## Usage
 

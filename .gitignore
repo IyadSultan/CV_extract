@@ -1,5 +1,47 @@
-venv
+# Virtual Environment
+venv/
 .env
-/venv
-/CVs/
-/results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific directories and their contents
+CVs/
+CVs/**
+results/
+results/**
+
+# Document files
+*.pdf
+*.doc
+*.docx
+*.txt
+*.csv
+
+# Specific markdown files to ignore
+resume_analysis_results.md
+**/results/*.md
+
+# But keep README.md
+!README.md
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
